@@ -22,12 +22,11 @@ Pre-Reqs:
 3. Make change to application
 4. Rebuild image w/source2image and rollout
 5. Show that new pod has change to text
-    `watch -n 1 'curl http://python-app-bpratt-project.vpc-gen2-roks-demo-d84d4d2137685d8446c88eacf59b5038-0000.us-east.containers.appdomain.cloud -s'`
+    `watch -n 1 'curl http://python-app-bpratt-project.roks-d84d4d2137685d8446c88eacf59b5038-0000.us-east.containers.appdomain.cloud -s'`
 6. Roll back to previous image version
-    `ibmcloud oc cluster config --cluster c5sr47lw070lj4dg3gu0 --admin`
+    `ibmcloud oc cluster config --cluster c5vur0fw0e9eun9486ng --admin`
     `oc project bpratt-project`
     `oc rollout undo dc/python-app`
-
 
 To Do:
 https://www.eclipse.org/che/docs/che-7/administration-guide/configuring-authorization/#enabling-authentication-with-social-accounts-and-brokering_che
