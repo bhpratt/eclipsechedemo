@@ -29,3 +29,5 @@ Pre-Reqs:
     - `ibmcloud oc cluster config --cluster c5u915ew0n6hnuv5ujmg --admin`
     - `oc project bpratt-project`
     - `oc rollout undo dc/python-app`
+    - `oc rollout latest dc/python-app`
+    - `oc set triggers dc/python-app --auto`
