@@ -26,6 +26,6 @@ Pre-Reqs:
 5. Show that new pod has change to text
     - `watch -n 1 'curl http://python-app-bpratt-project.roks-d84d4d2137685d8446c88eacf59b5038-0000.us-east.containers.appdomain.cloud -s'`
 6. Roll back to previous image version
-    - `ibmcloud oc cluster config --cluster c5vur0fw0e9eun9486ng --admin`
+    - `ibmcloud oc cluster config --cluster c5u915ew0n6hnuv5ujmg --admin`
     - `oc project bpratt-project`
     - `oc rollout undo dc/python-app`
