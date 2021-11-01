@@ -4,7 +4,7 @@
     - Install operator on fresh cluster
     - Admin vs Developer view
 - Deploy an application via OpenShift: `source to image`
-    - No Dockerfile or containerization
+    - No Dockerfile or manual containerization
 - Add an update to an application
     - Watch in real time as OpenShift adds a new pod and routes traffic to the new pod
 - Roll back change
