@@ -8,7 +8,7 @@
 - Add an update to an application
     - Watch in real time as OpenShift adds a new pod and routes traffic to the new pod.
 - Roll back change
-    - Watch in real time as update occurs with no interruption to front end client
+    - Watch in real time as update occurs with no interruption to front end client.
 
 
 ## Steps
